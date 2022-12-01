@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metaverse</title>
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Logo -->
+    <link rel="icon" href="assets/meta-logo.ico">
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="content">
+            <img src="assets/gem-regular.svg" alt="gem">
+            <div class="line"></div>
+            <hr>
+            <div class="intro">
+            <h1>Metaverse</h1>
+            <p>
+                Inovacija, kuri performos mūsų <a href="https://www.google.lt" 
+                target="_blank">kontaktavimo</a> įpročius suteikdama <a href="https://www.google.lt" target="_blank"> galimybę</a> kiekvienam.
+            </p>
+        </div>
+        <hr>
+            <div class="line"></div>
+        </div>
+        <nav>
+            <button onclick="showTab('intro')">Įžanga</button>
+            <button onclick="showTab('work')">Darbas</button>
+            <button onclick="showTab('about')">Apie</button>
+            <button onclick="showTab('contact')">Kontaktai</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- intro -->
+        <article id="intro" class="tab">
+            <h2 class="major">Įžanga</h2>
+            <video class="cover" src="assets/tab-1.mp4" muted autoplay loop></video>
+            <p>Metaverse-3d arba realybės pasaulis,kuriame galima žaisti, pirkti, parduoti,keliauti ir kurti.
+            <br><br>
+             </p>
+            <img class="close" src="assets/xmark-solid.svg" alt="close" onclick="closeTab(event)">
+        </article>
+
+        <!-- work -->
+        <article id="work" class="tab">
+            <h2 class="major">Darbas</h2>
+            <img class="cover" src="assets/tab-2.jpg"alt="meta2"></video>
+            <p>
+            <br><br>
+            Juokaujama, kad per aukso karštinę daugiausiai uždirbo ne auksakasiai, o kastuvų pardavėjai. Panašią tendenciją galime matyti ir kai kalbame apie „Metaverse“. Kuriasi vis daugiau „Metaverse“ dizaino agentūrų, jau yra teisininkų, ekonomistų ir konsultantų, kurie specializuojasi šiame naujame virtualiame pasaulyje.Deja, bet teisininkų paslaugų reikia jau dabar, nes „Metaverse“ platformoje gausų azartinių žaidimų, apgavysčių, mokesčių vengimo ar net seksualinio priekabiavimo. Daugelis šių problemų kompiuterinių žaidimų rinkoje egzistuoja jau dešimtis metų. Tačiau platesnis susidomėjimas virtualiu pasauliu atskleis jo trūkumus ir sukurs profesijas sprendimų ieškojimui.</p>
+            <img class="close" src="assets/xmark-solid.svg" alt="close" onclick="closeTab(event)">
+        </article>
+
+        <!-- about -->
+        <article id="about" class="tab">
+            <h2 class="major">Apie</h2>
+            <img class="cover" src="assets/tab-3.jpg"alt="meta3"></video>
+            <p>Patekimui ir patogiam gyvenimui „Metaverse“ reikalingi išmanūs prietaisai, galintys vartotoją kuo įspūdingiau perkelti į virtualų pasaulį. Tačiau tai ne tik virtualios realybės akiniai, bet ir apyrankės, sekančios individualius pirštų judesius, ar net vibracijas sukeliančios liemenės, padedančios „pajusti“ kitų žmonių prisilietimus.
+            <br><br>
+            </p>
+            <img class="close" src="assets/xmark-solid.svg" alt="close" onclick="closeTab(event)">
+        </article>
+
+        <!-- contact -->
+        <article id="contact" class="tab">
+            <h2 class="major">Kontaktai</h2>
+            <img class="cover" src="assets/tab-4.jpg"alt="meta4"></video>
+            <p>Skaitmeniniai drabužiai, paveikslai, automobiliai ir net nekilnojamas turtas – tai tik keletas prekių, kurias žmonės už tikrus pinigus jau gali nusipirkti „Metaverse“. Jų unikali nuosavybė yra įrodoma „blockchain“ sistemos pagalba. Jau šiandien galite rasti skaitmeninio nekilnojamo turto, parduodamo už milijonus dolerių. Ir žmonės jį perka! Į skaitmeninį nekilnojamąjį turtą investavusios įmonės prilygina šiuos skaitmeninius sklypus nekilnojamojo turto pirkimui Niujorke prieš šimtus metų – tai unikali galimybė įsigyti vietos pasauliuose, kuriuose ateityje bus labai daug lankytojų, todėl iš anksto paruošę ten vietą savo parduotuvei, kavinei ar kitokiam verslui, galite laimėti.
+            <br><br>
+            </p>
+            <img class="close" src="assets/xmark-solid.svg" alt="close" onclick="closeTab(event)">
+        </article>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
